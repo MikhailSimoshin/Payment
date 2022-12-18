@@ -84,10 +84,7 @@ input { /*Поля*/
     background-color: #30d670cf;
 }
 
-.nalogi,
-.perevod,
-.uslugi,
-.zarplata {
+.btn-purple { /*Кнопочки*/
     background-color: #4d3bff;
     border: none;
     color: white;
@@ -102,20 +99,39 @@ input { /*Поля*/
     border-radius: 10px;
     font-family: 'Oswald', sans-serif;
 }
-
-.nalogi:hover,
-.perevod:hover,
-.uslugi:hover,
-.zarplata:hover {
+.btn-purple:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.238), 0 17px 50px 0 rgba(0, 0, 0, 0.3);
 }
-
-.nalogi:active,
-.perevod:active,
-.uslugi:active,
-.zarplata:active {
+.btn-purple:active {
     transition: none;
     background-color: #4f3bffd1;
+}
+.btn-orange {
+    background-color: #fe9654;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 4px 2px 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+.btn-orange:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.238), 0 17px 50px 0 rgba(0, 0, 0, 0.3);
+}
+.btn-orange:active {
+    transition: none;
+    background-color: #fe9554d1;
+}
+.btn-orange:disabled {
+    cursor: not-allowed;
+    background-color: #fe945280;
+    box-shadow: none;
 }
 
 /*----------Модальное окошечко---------*/
@@ -156,7 +172,7 @@ input { /*Поля*/
 .modal-body input {
     margin-bottom: 2vh;
 }
-.modal-submit, /*Кнопочки в модалке*/
+/* .modal-submit,
 .modal-cancel {
     background-color: #fe9654;
     border: none;
@@ -185,7 +201,7 @@ input { /*Поля*/
     cursor: not-allowed;
     background-color: #fe945280;
     box-shadow: none;
-}
+} */
 
 .modal-nalogi { /*Статус налогов*/
     background-color: #fe9654;
