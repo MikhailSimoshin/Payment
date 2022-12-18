@@ -1,9 +1,11 @@
 <!DOCTYPE html>
+<html>
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player</title>
 </head>
 <body>
     <button class="exit">Выйти из аккаунта</button>
@@ -17,9 +19,12 @@
         <hr>
         <h1>Ваши возможности:</h1>
         <div class="btns"></div>
-            <button onclick="" class="nalogi">Уплатить налоги</button><br>
-            <button onclick="" class="perevod">Перевод денег другому игроку</button><br>
-            <button onclick="" class="uslugi">Оплата услуг</button><br>
+            <button onclick="nalogi()" class="nalogi">Уплатить налоги</button><br>
+            <button onclick="perevod()" class="perevod">Перевод денег другому игроку</button><br>
+            <button onclick="uslugi()" class="uslugi">Услуги фирмы</button><br>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
+</html>
