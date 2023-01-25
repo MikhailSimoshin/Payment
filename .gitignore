@@ -4,3 +4,5 @@ token.txt
 .idea
 *.log
 __pycache__/
+secret.txt
+credentials.txt
